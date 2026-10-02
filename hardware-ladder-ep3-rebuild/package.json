@@ -1,0 +1,28 @@
+{
+  "name": "hardware-ladder-ep3-rebuild",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "render": "remotion render src/index.ts Main out/ep3-1080p.mp4 --codec=h264 --crf=16",
+    "render:opening": "remotion render src/index.ts Opening10 out/ep3-opening.mp4 --codec=h264"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.7.0",
+    "@remotion/cli": "4.0.512",
+    "@remotion/three": "4.0.512",
+    "@video/kit": "file:./packages/video-kit",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.512",
+    "three": "0.186.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.0",
+    "@types/three": "0.186.0",
+    "typescript": "5.7.2"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "preset": "apple-light",
+  "voice": {
+    "file": "voice/voiceover.wav",
+    "seconds": 41.6
+  },
+  "tail": 0.44,
+  "scenes": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 3.92,
+      "treat": "ANIM",
+      "beat": "hook",
+      "exit": "cut",
+      "text": "This MacBook Pro runs a real coding AI, completely offline."
+    },
+    {
+      "id": 2,
+      "start": 3.92,
+      "end": 9.28,
+      "treat": "ANIM",
+      "beat": "body",
+      "exit": "cut",
+      "text": "It's level three of five, from a tiny chip to an AI server, and the first two levels couldn't do this."
+    },
+    {
+      "id": 3,
+      "start": 9.28,
+      "end": 10.74,
+      "treat": "ANIM",
+      "beat": "body",
+      "exit": "cut",
+      "text": "Why? One number."
+    },
+    {
+      "id": 4,
+      "start": 10.74,
+      "end": 16.48,
+      "treat": "ANIM",
+      "beat": "body",
+      "exit": "cut",
+      "text": "That number is memory. An AI model has to fit in memory, and this one has thirty-two gigabytes."
+    },
+    {
+      "id": 5,
+      "start": 16.48,
+      "end": 26.1,
+      "treat": "ANIM",
+      "beat": "body",
+      "exit": "cut",
+      "text": "So it runs Qwen3 Coder, a thirty-billion-parameter coding model, in LM Studio. It writes code, explains it, fixes bugs, and nothing leaves the laptop."
+    },
+    {
+      "id": 6,
+      "start": 26.1,
+      "end": 33.32,
+      "treat": "ANIM",
+      "beat": "body",
+      "exit": "cut",
+      "text": "For images, it runs FLUX, one of the best open image models, in a free app called Draw Things. Slower than the cloud, but private."
+    },
+    {
+      "id": 7,
+      "start": 33.32,
+      "end": 38.32,
+      "treat": "ANIM",
+      "beat": "payoff",
+      "exit": "cut",
+      "text": "What can't it run? Llama 70B. That needs forty-two gigabytes. It doesn't fit."
+    },
+    {
+      "id": 8,
+      "start": 38.32,
+      "end": 41.6,
+      "treat": "ANIM",
+      "beat": "payoff",
+      "exit": "cut",
+      "text": "Level four has a hundred and twenty-eight. Follow for the next levels."
+    }
+  ],
+  "avatar": {
+    "ep": 3,
+    "ready": false,
+    "focus": "50% 30%",
+    "pipZoom": 1.5,
+    "takes": [],
+    "pip": {
+      "size": 380,
+      "left": 80,
+      "top": 1090
+    }
+  },
+  "emphasis": [],
+  "sfx": [],
+  "cards": [],
+  "hooks": {
+    "variants": [
+      "A"
+    ]
+  }
+}

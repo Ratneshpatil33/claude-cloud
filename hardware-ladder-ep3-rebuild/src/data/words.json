@@ -1,0 +1,632 @@
+[
+  {
+    "word": "This",
+    "start": 0.0,
+    "end": 0.3
+  },
+  {
+    "word": "MacBook",
+    "start": 0.3,
+    "end": 0.56
+  },
+  {
+    "word": "Pro",
+    "start": 0.56,
+    "end": 0.9
+  },
+  {
+    "word": "runs",
+    "start": 0.9,
+    "end": 1.16
+  },
+  {
+    "word": "a",
+    "start": 1.16,
+    "end": 1.44
+  },
+  {
+    "word": "real",
+    "start": 1.44,
+    "end": 1.66
+  },
+  {
+    "word": "coding",
+    "start": 1.66,
+    "end": 1.98
+  },
+  {
+    "word": "AI,",
+    "start": 1.98,
+    "end": 2.42
+  },
+  {
+    "word": "completely",
+    "start": 2.74,
+    "end": 3.02
+  },
+  {
+    "word": "offline.",
+    "start": 3.02,
+    "end": 3.54
+  },
+  {
+    "word": "It's",
+    "start": 3.92,
+    "end": 4.1
+  },
+  {
+    "word": "level",
+    "start": 4.1,
+    "end": 4.26
+  },
+  {
+    "word": "three",
+    "start": 4.26,
+    "end": 4.52
+  },
+  {
+    "word": "of",
+    "start": 4.52,
+    "end": 4.7
+  },
+  {
+    "word": "five,",
+    "start": 4.7,
+    "end": 4.96
+  },
+  {
+    "word": "from",
+    "start": 5.14,
+    "end": 5.28
+  },
+  {
+    "word": "a",
+    "start": 5.28,
+    "end": 5.46
+  },
+  {
+    "word": "tiny",
+    "start": 5.46,
+    "end": 5.64
+  },
+  {
+    "word": "chip",
+    "start": 5.64,
+    "end": 5.92
+  },
+  {
+    "word": "to",
+    "start": 5.92,
+    "end": 6.14
+  },
+  {
+    "word": "an",
+    "start": 6.14,
+    "end": 6.28
+  },
+  {
+    "word": "AI",
+    "start": 6.28,
+    "end": 6.56
+  },
+  {
+    "word": "server,",
+    "start": 6.56,
+    "end": 6.92
+  },
+  {
+    "word": "and",
+    "start": 7.08,
+    "end": 7.26
+  },
+  {
+    "word": "the",
+    "start": 7.26,
+    "end": 7.4
+  },
+  {
+    "word": "first",
+    "start": 7.4,
+    "end": 7.56
+  },
+  {
+    "word": "two",
+    "start": 7.56,
+    "end": 7.76
+  },
+  {
+    "word": "levels",
+    "start": 7.76,
+    "end": 8.02
+  },
+  {
+    "word": "couldn't",
+    "start": 8.02,
+    "end": 8.46
+  },
+  {
+    "word": "do",
+    "start": 8.46,
+    "end": 8.66
+  },
+  {
+    "word": "this.",
+    "start": 8.66,
+    "end": 8.94
+  },
+  {
+    "word": "Why?",
+    "start": 9.28,
+    "end": 9.5
+  },
+  {
+    "word": "One",
+    "start": 9.9,
+    "end": 10.3
+  },
+  {
+    "word": "number.",
+    "start": 10.3,
+    "end": 10.54
+  },
+  {
+    "word": "That",
+    "start": 10.76,
+    "end": 11.0
+  },
+  {
+    "word": "number",
+    "start": 11.0,
+    "end": 11.28
+  },
+  {
+    "word": "is",
+    "start": 11.28,
+    "end": 11.58
+  },
+  {
+    "word": "memory.",
+    "start": 11.58,
+    "end": 11.88
+  },
+  {
+    "word": "An",
+    "start": 12.16,
+    "end": 12.3
+  },
+  {
+    "word": "AI",
+    "start": 12.3,
+    "end": 12.66
+  },
+  {
+    "word": "model",
+    "start": 12.66,
+    "end": 12.92
+  },
+  {
+    "word": "has",
+    "start": 12.92,
+    "end": 13.18
+  },
+  {
+    "word": "to",
+    "start": 13.18,
+    "end": 13.34
+  },
+  {
+    "word": "fit",
+    "start": 13.34,
+    "end": 13.52
+  },
+  {
+    "word": "in",
+    "start": 13.52,
+    "end": 13.72
+  },
+  {
+    "word": "memory,",
+    "start": 13.72,
+    "end": 14.0
+  },
+  {
+    "word": "and",
+    "start": 14.14,
+    "end": 14.36
+  },
+  {
+    "word": "this",
+    "start": 14.36,
+    "end": 14.56
+  },
+  {
+    "word": "one",
+    "start": 14.56,
+    "end": 14.76
+  },
+  {
+    "word": "has",
+    "start": 14.76,
+    "end": 15.04
+  },
+  {
+    "word": "thirty-two",
+    "start": 15.04,
+    "end": 15.46
+  },
+  {
+    "word": "gigabytes.",
+    "start": 15.46,
+    "end": 15.88
+  },
+  {
+    "word": "So",
+    "start": 16.48,
+    "end": 16.74
+  },
+  {
+    "word": "it",
+    "start": 16.74,
+    "end": 16.96
+  },
+  {
+    "word": "runs",
+    "start": 16.96,
+    "end": 17.28
+  },
+  {
+    "word": "Qwen3",
+    "start": 17.28,
+    "end": 17.82
+  },
+  {
+    "word": "Coder,",
+    "start": 17.82,
+    "end": 18.36
+  },
+  {
+    "word": "a",
+    "start": 18.5,
+    "end": 18.62
+  },
+  {
+    "word": "thirty-billion-parameter",
+    "start": 18.62,
+    "end": 19.78
+  },
+  {
+    "word": "coding",
+    "start": 19.78,
+    "end": 20.18
+  },
+  {
+    "word": "model,",
+    "start": 20.18,
+    "end": 20.6
+  },
+  {
+    "word": "in",
+    "start": 20.6,
+    "end": 20.94
+  },
+  {
+    "word": "LM",
+    "start": 20.94,
+    "end": 21.36
+  },
+  {
+    "word": "Studio.",
+    "start": 21.36,
+    "end": 21.6
+  },
+  {
+    "word": "It",
+    "start": 21.8,
+    "end": 21.96
+  },
+  {
+    "word": "writes",
+    "start": 21.96,
+    "end": 22.24
+  },
+  {
+    "word": "code,",
+    "start": 22.24,
+    "end": 22.56
+  },
+  {
+    "word": "explains",
+    "start": 22.8,
+    "end": 23.14
+  },
+  {
+    "word": "it,",
+    "start": 23.14,
+    "end": 23.4
+  },
+  {
+    "word": "fixes",
+    "start": 23.58,
+    "end": 23.84
+  },
+  {
+    "word": "bugs,",
+    "start": 23.84,
+    "end": 24.16
+  },
+  {
+    "word": "and",
+    "start": 24.42,
+    "end": 24.52
+  },
+  {
+    "word": "nothing",
+    "start": 24.52,
+    "end": 24.78
+  },
+  {
+    "word": "leaves",
+    "start": 24.78,
+    "end": 25.16
+  },
+  {
+    "word": "the",
+    "start": 25.16,
+    "end": 25.5
+  },
+  {
+    "word": "laptop.",
+    "start": 25.5,
+    "end": 25.76
+  },
+  {
+    "word": "For",
+    "start": 26.1,
+    "end": 26.34
+  },
+  {
+    "word": "images,",
+    "start": 26.34,
+    "end": 26.7
+  },
+  {
+    "word": "it",
+    "start": 27.08,
+    "end": 27.12
+  },
+  {
+    "word": "runs",
+    "start": 27.12,
+    "end": 27.38
+  },
+  {
+    "word": "FLUX,",
+    "start": 27.38,
+    "end": 27.76
+  },
+  {
+    "word": "one",
+    "start": 27.96,
+    "end": 28.14
+  },
+  {
+    "word": "of",
+    "start": 28.14,
+    "end": 28.3
+  },
+  {
+    "word": "the",
+    "start": 28.3,
+    "end": 28.4
+  },
+  {
+    "word": "best",
+    "start": 28.4,
+    "end": 28.62
+  },
+  {
+    "word": "open",
+    "start": 28.62,
+    "end": 28.98
+  },
+  {
+    "word": "image",
+    "start": 28.98,
+    "end": 29.24
+  },
+  {
+    "word": "models,",
+    "start": 29.24,
+    "end": 29.58
+  },
+  {
+    "word": "in",
+    "start": 29.58,
+    "end": 29.88
+  },
+  {
+    "word": "a",
+    "start": 29.88,
+    "end": 30.0
+  },
+  {
+    "word": "free",
+    "start": 30.0,
+    "end": 30.18
+  },
+  {
+    "word": "app",
+    "start": 30.18,
+    "end": 30.38
+  },
+  {
+    "word": "called",
+    "start": 30.38,
+    "end": 30.7
+  },
+  {
+    "word": "Draw",
+    "start": 30.7,
+    "end": 31.0
+  },
+  {
+    "word": "Things.",
+    "start": 31.0,
+    "end": 31.3
+  },
+  {
+    "word": "Slower",
+    "start": 31.72,
+    "end": 31.78
+  },
+  {
+    "word": "than",
+    "start": 31.78,
+    "end": 32.02
+  },
+  {
+    "word": "the",
+    "start": 32.02,
+    "end": 32.14
+  },
+  {
+    "word": "cloud,",
+    "start": 32.14,
+    "end": 32.32
+  },
+  {
+    "word": "but",
+    "start": 32.32,
+    "end": 32.56
+  },
+  {
+    "word": "private.",
+    "start": 32.56,
+    "end": 32.94
+  },
+  {
+    "word": "What",
+    "start": 33.32,
+    "end": 33.56
+  },
+  {
+    "word": "can't",
+    "start": 33.56,
+    "end": 33.88
+  },
+  {
+    "word": "it",
+    "start": 33.88,
+    "end": 33.96
+  },
+  {
+    "word": "run?",
+    "start": 33.96,
+    "end": 34.18
+  },
+  {
+    "word": "Llama",
+    "start": 35.08,
+    "end": 35.32
+  },
+  {
+    "word": "70B.",
+    "start": 35.32,
+    "end": 35.56
+  },
+  {
+    "word": "That",
+    "start": 35.56,
+    "end": 35.88
+  },
+  {
+    "word": "needs",
+    "start": 35.88,
+    "end": 36.12
+  },
+  {
+    "word": "forty-two",
+    "start": 36.12,
+    "end": 36.5
+  },
+  {
+    "word": "gigabytes.",
+    "start": 36.5,
+    "end": 36.88
+  },
+  {
+    "word": "It",
+    "start": 37.34,
+    "end": 37.42
+  },
+  {
+    "word": "doesn't",
+    "start": 37.42,
+    "end": 37.82
+  },
+  {
+    "word": "fit.",
+    "start": 37.82,
+    "end": 37.98
+  },
+  {
+    "word": "Level",
+    "start": 38.5,
+    "end": 38.6
+  },
+  {
+    "word": "four",
+    "start": 38.6,
+    "end": 38.94
+  },
+  {
+    "word": "has",
+    "start": 38.94,
+    "end": 39.18
+  },
+  {
+    "word": "a",
+    "start": 39.18,
+    "end": 39.34
+  },
+  {
+    "word": "hundred",
+    "start": 39.34,
+    "end": 39.5
+  },
+  {
+    "word": "and",
+    "start": 39.5,
+    "end": 39.66
+  },
+  {
+    "word": "twenty-eight.",
+    "start": 39.66,
+    "end": 39.98
+  },
+  {
+    "word": "Follow",
+    "start": 40.46,
+    "end": 40.66
+  },
+  {
+    "word": "for",
+    "start": 40.66,
+    "end": 40.92
+  },
+  {
+    "word": "the",
+    "start": 40.92,
+    "end": 41.08
+  },
+  {
+    "word": "next",
+    "start": 41.08,
+    "end": 41.3
+  },
+  {
+    "word": "levels.",
+    "start": 41.3,
+    "end": 41.52
+  }
+]
