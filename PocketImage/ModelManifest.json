@@ -1,0 +1,26 @@
+[
+  {
+    "id": "diffusion",
+    "name": "Image generator \u00b7 Q4",
+    "filename": "Qwen-Image-2.1-Turbo-AD-Q4_K.gguf",
+    "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-GGUF/resolve/f5996597b053664d0885cfaa0dcc88afb47f92f6/Qwen-Image-2.1-Turbo-AD-Q4_K.gguf",
+    "bytes": 4201694944,
+    "sha256": "4bb73c53cbe284bbd6d69b9fdc59539c531f0389dd2aa567663d777f8130bc59"
+  },
+  {
+    "id": "encoder",
+    "name": "Text encoder \u00b7 Q4",
+    "filename": "Qwen3VL-8B-Instruct-Q4_K_M.gguf",
+    "url": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct-GGUF/resolve/f982a07559d4a2f6c8744d840bf6fccab30eea96/Qwen3VL-8B-Instruct-Q4_K_M.gguf",
+    "bytes": 5027784800,
+    "sha256": "67d1659bfe71b89d50b45a4ad1a9e5b997e5bb16ce5da66a6a6167abd569e9e2"
+  },
+  {
+    "id": "vae",
+    "name": "Image decoder \u00b7 BF16",
+    "filename": "qwen_image_2.1_vae_bf16.safetensors",
+    "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/a8342359c61979b06a8dafb1a47991fe1f30e994/vae/qwen_image_2.1_vae_bf16.safetensors",
+    "bytes": 675509688,
+    "sha256": "bb21f7473051e1ac368515dd3f2e15cd44d7a11748ee8823e1ddca3e4876b7c9"
+  }
+]
