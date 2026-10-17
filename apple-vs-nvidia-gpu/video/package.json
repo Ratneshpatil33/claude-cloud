@@ -9,7 +9,9 @@
     "words": "node scripts/align-words.mjs",
     "render": "remotion render Reel out/apple-vs-nvidia-gpu.mp4 --codec=h264 --crf=18 --audio-bitrate=320k",
     "still": "remotion still Reel out/still.png --frame=0",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "master": "ffmpeg -v error -y -i out/apple-vs-nvidia-gpu.mp4 -c:v copy -af loudnorm=I=-14:TP=-1:LRA=7 -ar 48000 -c:a aac -b:a 320k -movflags +faststart out/apple-vs-nvidia-gpu-final.mp4",
+    "final": "npm run render && npm run master"
   },
   "dependencies": {
     "@fontsource/geist-mono": "5.3.0",
