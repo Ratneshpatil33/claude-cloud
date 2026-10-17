@@ -1,6 +1,6 @@
 # Apple GPU vs NVIDIA GPU: Reel script
 
-**Length:** about 48 s at your ep3 pace (147 words at 182 wpm). A slower 170 wpm read runs about 52 s.
+**Length:** about 50 s at your ep3 pace (151 words at 182 wpm). A slower 170 wpm read runs about 53 s.
 **Matchup:** Mac Studio with M5 Ultra (80-core GPU) vs. RTX 5080, both current as of fall 2026.
 **Format:** 9:16 Reel or Short. Numbers are spelled out the way they should be read aloud.
 **Arc:** Apple's core count looks tiny next to NVIDIA's (hook), then the reveal that each Apple core is far bigger than it sounds, then the real difference (NVIDIA builds for maximum output, Apple for efficiency), then Apple's memory twist, then an analogy and a share CTA that loops back to frame 1.
@@ -9,37 +9,37 @@
 
 ## Script
 
-### 1 · HOOK · 0:00–0:07
-**VO:** Apple's M5 Ultra Mac Studio has eighty GPU cores. NVIDIA's RTX fifty-eighty has ten thousand, seven hundred and fifty-two. Blowout, right?
+### 1 · HOOK · 0:00–0:08
+**VO:** Apple's M5 Ultra Mac Studio has eighty GPU cores. NVIDIA's RTX fifty-eighty has ten thousand, seven hundred and fifty-two. So how is Apple even competing?
 **On screen:** `MAC STUDIO · M5 ULTRA · 80 GPU cores` | `RTX 5080 · 10,752 CUDA cores`
-**Visual:** No fade-in. Frame 0 already shows the Mac Studio and the card. A `pop` lands on each number as it appears. Under them, a balance scale slams down hard on the NVIDIA side, with Apple's 80 tiny next to a huge 10,752.
+**Visual:** No fade-in. Frame 0 already shows the Mac Studio and the card. A `pop` lands on each number as it appears. Under them, a balance scale slams down hard on the NVIDIA side, with Apple's 80 tiny next to a huge 10,752. On the question, the overlay reads `HOW?`
 
-### 2 · REVEAL · 0:07–0:16
-**VO:** Nope. Apple's cores are bigger than you think. Each one packs a hundred and twenty-eight math units. NVIDIA counts every unit as a core. Multiply it out: nearly identical.
+### 2 · REVEAL · 0:08–0:18
+**VO:** Because Apple's cores are bigger than you think. Each one packs a hundred and twenty-eight math units. NVIDIA counts every unit as a core. Multiply it out: nearly identical.
 **On screen:** `1 Apple core = 128 math units` → `80 × 128 = 10,240` vs `10,752`
 **Visual:** Zoom into one Apple core and burst it into a 16 × 8 grid of dots. Pull back as all 80 cores burst the same way, while a counter runs from 80 up to 10,240 beside NVIDIA's 10,752. The scale swings back to almost level.
 
-### 3 · NEXT QUESTION · 0:16–0:19
+### 3 · NEXT QUESTION · 0:18–0:21
 **VO:** Then why is NVIDIA way more powerful? Opposite goals.
 **On screen:** `33 vs 56 TFLOPS` → `MAX OUTPUT` vs `MAX EFFICIENCY`
 **Visual:** Two power bars race and NVIDIA's lands about 1.7× higher. Then the frame splits into two labels, one over each device.
 
-### 4 · DESIGN GOALS · 0:19–0:30
+### 4 · DESIGN GOALS · 0:21–0:31
 **VO:** NVIDIA builds for maximum output: the whole chip is GPU, fed three hundred and sixty watts. Apple builds for efficiency: its GPU shares one chip with the CPU, sipping a fraction.
 **On screen:** `Whole chip = GPU · 360 W · 2.6 GHz` vs `Shared chip · ~1.6 GHz`
 **Visual:** The card's fans spin up (the fan spin-up from the RGB-case animation) while a wattage needle swings to 360, and the whole die lights up as GPU. Then x-ray the Apple chip: the CPU, GPU, Neural Engine and media engines share one chip, the GPU is just one highlighted block, and its wattage needle barely moves.
 
-### 5 · THE TWIST · 0:30–0:39
+### 5 · THE TWIST · 0:31–0:40
 **VO:** But Apple's cheat code is memory. NVIDIA's best gaming card has thirty-two gigs. This Mac Studio shares up to five hundred and twelve between CPU and GPU.
 **On screen:** `RTX 5090: 32 GB (its own)` vs `Mac Studio: 512 GB (shared)`
 **Visual:** Use your v3 x-ray look. The card frosts over to expose the memory chips around the GPU, and the Mac Studio exposes one big memory pool with arrows to both CPU and GPU.
 
-### 6 · PAYOFF · 0:39–0:43
+### 6 · PAYOFF · 0:40–0:44
 **VO:** So AI models too big for any gaming card... run on a Mac.
 **On screen:** `70B model · 42 GB` → ✗ card, ✓ Mac
 **Visual:** Green weight blocks pour into the card's memory, overflow and turn red. Then they pour into the Mac's pool with room to spare. This calls back to ep3's "Llama 70B needs 42 GB."
 
-### 7 · CLOSE · 0:43–0:48
+### 7 · CLOSE · 0:44–0:50
 **VO:** NVIDIA's a Ferrari. Apple's a moving truck. Send this to someone who thinks more cores means faster.
 **On screen:** `Speed` vs `Space` → `more cores ≠ faster`
 **Visual:** A Ferrari roars past, then its tiny trunk pops open and fits one "32 GB" box. A moving truck rolls its door up on a wall of "512 GB." The last frame snaps back to the 80 vs 10,752 split from the hook, so the replay loops cleanly.
@@ -49,10 +49,10 @@
 
 ## Hook variants
 
-Each one replaces scene 1 and leads into scene 2's "Nope." Test them against the main hook with Instagram's Trial Reels.
+Each one replaces scene 1 and leads into scene 2. Test them against the main hook with Instagram's Trial Reels.
 
 - **B, question:** "Apple's M5 Ultra Mac Studio has eighty GPU cores. NVIDIA's RTX fifty-eighty has ten thousand, seven hundred and fifty-two. So NVIDIA has over a hundred times more?"
-- **C, viewer's guess:** "Eighty GPU cores, or ten thousand, seven hundred and fifty-two. Which one would you buy?" (Change scene 2's "Nope." to "Trick question.")
+- **C, viewer's guess:** "Eighty GPU cores, or ten thousand, seven hundred and fifty-two. Which one would you buy?" (Start scene 2 with "Trick question." instead of "Because.")
 
 ## Want an exact match instead?
 
@@ -93,19 +93,19 @@ The times are estimates at the ep3 pace. Re-time them from `words.json` after re
 
 ```json
 [
-  {"id": 1, "start": 0.0, "end": 6.92, "treat": "ANIM", "beat": "hook", "exit": "cut",
-   "text": "Apple's M5 Ultra Mac Studio has eighty GPU cores. NVIDIA's RTX fifty-eighty has ten thousand, seven hundred and fifty-two. Blowout, right?"},
-  {"id": 2, "start": 6.92, "end": 16.48, "treat": "ANIM", "beat": "body", "exit": "cut",
-   "text": "Nope. Apple's cores are bigger than you think. Each one packs a hundred and twenty-eight math units. NVIDIA counts every unit as a core. Multiply it out: nearly identical."},
-  {"id": 3, "start": 16.48, "end": 19.44, "treat": "ANIM", "beat": "loop", "exit": "cut",
+  {"id": 1, "start": 0.0, "end": 8.24, "treat": "ANIM", "beat": "hook", "exit": "cut",
+   "text": "Apple's M5 Ultra Mac Studio has eighty GPU cores. NVIDIA's RTX fifty-eighty has ten thousand, seven hundred and fifty-two. So how is Apple even competing?"},
+  {"id": 2, "start": 8.24, "end": 17.79, "treat": "ANIM", "beat": "body", "exit": "cut",
+   "text": "Because Apple's cores are bigger than you think. Each one packs a hundred and twenty-eight math units. NVIDIA counts every unit as a core. Multiply it out: nearly identical."},
+  {"id": 3, "start": 17.79, "end": 20.76, "treat": "ANIM", "beat": "loop", "exit": "cut",
    "text": "Then why is NVIDIA way more powerful? Opposite goals."},
-  {"id": 4, "start": 19.44, "end": 29.66, "treat": "ANIM", "beat": "body", "exit": "cut",
+  {"id": 4, "start": 20.76, "end": 30.98, "treat": "ANIM", "beat": "body", "exit": "cut",
    "text": "NVIDIA builds for maximum output: the whole chip is GPU, fed three hundred and sixty watts. Apple builds for efficiency: its GPU shares one chip with the CPU, sipping a fraction."},
-  {"id": 5, "start": 29.66, "end": 38.55, "treat": "ANIM", "beat": "payoff", "exit": "cut",
+  {"id": 5, "start": 30.98, "end": 39.87, "treat": "ANIM", "beat": "payoff", "exit": "cut",
    "text": "But Apple's cheat code is memory. NVIDIA's best gaming card has thirty-two gigs. This Mac Studio shares up to five hundred and twelve between CPU and GPU."},
-  {"id": 6, "start": 38.55, "end": 42.84, "treat": "ANIM", "beat": "payoff", "exit": "cut",
+  {"id": 6, "start": 39.87, "end": 44.16, "treat": "ANIM", "beat": "payoff", "exit": "cut",
    "text": "So AI models too big for any gaming card... run on a Mac."},
-  {"id": 7, "start": 42.84, "end": 48.44, "treat": "ANIM", "beat": "close", "exit": "cut",
+  {"id": 7, "start": 44.16, "end": 49.76, "treat": "ANIM", "beat": "close", "exit": "cut",
    "text": "NVIDIA's a Ferrari. Apple's a moving truck. Send this to someone who thinks more cores means faster."}
 ]
 ```
