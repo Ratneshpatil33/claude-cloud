@@ -14,11 +14,12 @@
 - 3D shots use the v3 infinite white studio (`STUDIO_BG #F3F4F6`) so they cut cleanly against the flat shots.
 
 **Type**
-- SF Pro Display via the preset font stack. Apple's license only covers UI mock-ups, so for a public video, Inter Display is the safe drop-in (see Assets).
-- Headlines: 700 weight, 96–120 px.
-- Hero numbers: 800 weight, 280–340 px, tabular figures.
-- Labels: 36–40 px. Specs: 28 px SF Mono.
-- Tracking: −0.045em (preset).
+- Inter (F1), loaded with `@remotion/fonts`. Apple's SF license only covers UI mock-ups, so don't ship SF Pro in a public video.
+- Set it through the palette override: `display` and `text` = `"Inter", sans-serif`. Inter is a variable font, so `WeightWord` still works.
+- Apple's own big headlines run weight 600 at about −0.015em. For this episode, override the preset's 700 / −0.045 with `displayWeight: 600, tracking: -0.02`.
+- Headlines: 96–120 px.
+- Hero numbers: weight 700, 280–340 px, tabular figures.
+- Labels: 36–40 px. Specs: 28 px Geist Mono (F2).
 
 **Color**
 - Ink `#1D1D1F`, secondary `#6E6E73`, hairlines `rgba(0,0,0,.12)`.
@@ -33,7 +34,7 @@
 **Motion**
 - Entrances use `EASE_OUT` (`bezier(.16,1,.3,1)`), Apple's long settle.
 - Big objects use `settle`, small objects `pop`, punch-ins `snap`.
-- Whips and zooms run inside `CameraMotionBlur` (`shutterAngle 180`, 10 samples).
+- Whips and zooms run inside `CameraMotionBlur` (`shutterAngle 180`, 10 samples). Remotion's docs warn it can shift colors, so use it only on those shots and check the off-white for banding.
 - Only counters move linearly. Nothing bounces more than `pop` allows.
 
 **Labels**
@@ -44,6 +45,7 @@
 - `Captions` (3–4 words per page) in the caption strip.
 - A top-left section eyebrow, 26 px caps in `#6E6E73`: **CORES → DESIGN → MEMORY → VERDICT**.
 - All hero type stays inside `SAFE` (left 80, right 180, top 240, bottom 440). Check with `--props='{"guides":true}'`.
+- Meta's Reels guide is stricter: 14% top, 35% bottom, 6% sides. To be safe for both, keep hero numbers and key labels between y 270 and y 1250.
 
 **Cutting**
 - Hard cuts on spoken beats.
@@ -75,7 +77,7 @@ Times are in seconds, frames are `[start, end)` at 25 fps. **Cue** is the spoken
 
 **1.3 · 3.3–4.6 · f83–115** · VO: "with eighty GPU cores"
 - **Picture:** Same shot. The Mac Studio slides 25% left and a huge counter lands on its right.
-- **On screen:** **80**, 320 px in Apple blue, with **GPU cores** under it at 40 px.
+- **On screen:** **80**, 320 px in Apple blue, with **GPU cores** under it at 40 px and *80-core GPU configuration* at 22 px (the base M5 Ultra has 64, see A5).
 - **Motion:** `Odometer` 0 → 80 starting on "eighty" (3.6 s), 0.5 s long, then `pop`.
 - **SFX:** `pop` on landing (3.9 s).
 - **Build:** `Odometer`.
@@ -157,7 +159,7 @@ Times are in seconds, frames are `[start, end)` at 25 fps. **Cue** is the spoken
 - **Picture:** X-ray through the shroud to a stylized GB203 die: 84 SM tiles grouped in GPC blocks, after N4's block-diagram style. On "whole chip" (25.7 s), the entire die floods NVIDIA green in a wave from the center.
 - **On screen:** `Callout` **Entire chip = GPU**, with mono **84 SMs · 378 mm²**.
 - **SFX:** `tick` under the flood wave (−9 dB), `pop` on "graphics" (27.0).
-- **Build:** The v3 x-ray look, then an SVG die.
+- **Build:** The v3 x-ray look, then an SVG die. Draw the 84 SM tiles in GPC clusters in the style of N4's GB202 diagram, since the whitepaper has no GB203 diagram.
 
 **4.3 · 27.3–28.6 · f683–715** · VO: "Apple builds for efficiency,"
 - **Picture:** Hard cut to calm. The Mac Studio hero in cool daylight. The same gauge as 4.1 sits beside it and its needle barely lifts.
@@ -175,10 +177,10 @@ Times are in seconds, frames are `[start, end)` at 25 fps. **Cue** is the spoken
 ### SECTION 4 · MEMORY (30.6–42.8)
 
 **5.1 · 30.6–32.6 · f765–815** · VO: "But Apple's secret weapon is memory."
-- **Picture:** Pattern interrupt at 62% of the runtime. The frame clears to off-white. A single memory package (S5 macro photo, or M3 3D chip) rises in with a light sweep.
+- **Picture:** Pattern interrupt at 62% of the runtime. The frame clears to off-white. A single memory package rises in with a light sweep. Draw it in code (a dark rounded rect with fine laser-etched text and a soft specular band), or use the M3 3D chip.
 - **On screen:** **Memory.** via `MaskReveal`, 200 px. Eyebrow: **MEMORY**.
 - **SFX:** 4 frames of silence, then `signature` on "memory" (32.3).
-- **Assets:** S5 or M3.
+- **Assets:** none (code), or M3.
 
 **5.2 · 32.6–34.9 · f815–873** · VO: "NVIDIA's best gaming card has thirty-two gigabytes."
 - **Picture:** RTX 5090 hero, then x-ray. The 16 GDDR7 packages ringing the die glow, and a small frosted-glass container labeled **32 GB** forms beside the card.
@@ -211,18 +213,18 @@ Times are in seconds, frames are `[start, end)` at 25 fps. **Cue** is the spoken
 - **Picture:** The only full-bleed real footage in the film. A red supercar blasts past (S1). After 40 s of off-white, the color jolt re-grabs attention right before the CTA. At 43.6 s it shrinks into a rounded card (radius 30) on off-white.
 - **On screen:** **Speed: insane** · **Trunk: tiny**.
 - **SFX:** `whoosh` on the pass (42.8). Keep the clip muted.
-- **Assets:** S1 (S2 still as fallback).
+- **Assets:** S1, or the badge-free S1 alt (S2 still as fallback).
 
 **7.2 · 44.1–46.1 · f1103–1153** · VO: "and Apple is a moving truck."
 - **Picture:** A matching rounded card beside the Ferrari: a box truck with its rear roll-up door opening, or one driving (S3).
 - **On screen:** **Space: massive** · **Built for the load**.
 - **SFX:** `whoosh` −6 dB (44.1).
-- **Assets:** S3 (S4 still as fallback).
+- **Assets:** S3 or S3 alt (S4 still as fallback).
 
 **7.3 · 46.1–49.4 · f1153–1236** · VO: "Send this to someone who thinks more cores means faster."
-- **Picture:** The cards morph back into the products: the Ferrari into the RTX 5080, the truck into the Mac Studio. They land exactly in the 1.1 two-up composition. A paper-plane icon (I1 `send`) flies toward the share button on the right rail (around x 1000, y 1500).
+- **Picture:** The cards morph back into the products: the Ferrari into the RTX 5080, the truck into the Mac Studio. They land exactly in the 1.1 two-up composition. A paper-plane icon (I1 `send`) flies from the CTA toward the share button on the right rail (around x 1000, y 1500).
 - **On screen:**
-  - **Send this to someone who thinks more cores = faster**.
+  - **Send this to someone who thinks more cores = faster**, set at y ≈ 1150 so it clears the bottom UI.
   - In the last 6 frames, the hook headline **80 cores vs 10,000+** fades back in, so the final frame equals frame 0 and the loop is seamless.
 - **SFX:** `whoosh` on the morph (46.1), `pop` on the plane (47.1). End on silence so the loop doesn't click.
 - **Assets:** A1, N1, I1.
@@ -237,6 +239,7 @@ Times are in seconds, frames are `[start, end)` at 25 fps. **Cue** is the spoken
 - **Pattern interrupt** at 30.6 s (Memory). The twist lands at 62% of the runtime, where drop-off usually starts.
 - **Real proof.** The Hugging Face table (6.1) makes the claim checkable, and that heads off "source?" comments.
 - **Color jolt** (7.1) before the CTA. Then a share-icon CTA, because sends are Instagram's strongest reach signal, and a last frame that equals frame 0.
+- **Why the loop matters:** Instagram counts every playback start, replays included, as a view ([Instagram Help](https://help.instagram.com/202865988324236)), and it asks for a hook inside the first 3 seconds ([Instagram Creators](https://creators.instagram.com/blog/the-latest-with-instagram)).
 
 ## SFX cues for timeline.json
 
@@ -269,4 +272,94 @@ These use your named sfx-v2 kinds. The times are estimates, so re-time them from
 ]
 ```
 
-<!-- ASSETS -->
+## Assets
+
+Nothing here has been downloaded.
+- **Opened** means a research agent opened the page.
+- **Search** means the URL came from search results only. This sandbox's network policy blocks those sites, so open each page before you download.
+
+### Apple (official)
+
+| ID | Use | Link | Status |
+| --- | --- | --- | --- |
+| A1, A2 | Mac Studio hero shots (front 3/4, side). Every image in a Newsroom article has its own Download button for the full-res file. Cut out the background for the two-up. | https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/ | Search |
+| A3 | M5 Ultra chip image, for 2.1 and 4.4 | https://apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute | Search |
+| A4 | Base M5 chip render and GPU graphics (fallback for A3) | https://www.apple.com/newsroom/2025/10/apple-unleashes-m5-the-next-big-leap-in-ai-performance-for-apple-silicon/ | Search |
+| A5 | Tech specs: proof that 80 GPU cores and 512 GB are the top configuration | https://support.apple.com/128107 | Search |
+| A6 | Apple's ~80 s Mac Studio intro film (optional B-roll). This article embeds it; take the original from Apple's YouTube channel. | https://www.iclarified.com/101889/watch-apples-the-new-mac-studio-with-m5-max-and-m5-ultra-video | Search |
+
+### NVIDIA (official)
+
+| ID | Use | Link | Status |
+| --- | --- | --- | --- |
+| N1, N2 | RTX 5080 Founders Edition images | https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/ and https://marketplace.nvidia.com/en-us/consumer/graphics-cards/geforce-rtx-5080-founders-edition/ | Search |
+| N1, N2 | CES 2025 press kit, Images section (RTX 50 series) | https://nvidianews.nvidia.com/online-press-kit/ces-2025-news | Search |
+| N3 | RTX 5090 Founders Edition images | https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/ | Search |
+| N4 | Blackwell whitepaper. The single-SM diagram (Fig. 5, p. 11) is the reference for 2.3. The full-chip GB202 diagram (Fig. 3, p. 8) is the style reference for 4.2. | https://images.nvidia.com/aem-dam/Solutions/geforce/blackwell/nvidia-rtx-blackwell-gpu-architecture.pdf | Search (page numbers from a search summary) |
+| N5 | RTX 50 announcement trailer (optional B-roll for 4.1; channel not confirmed) | https://www.youtube.com/watch?v=Dyd5pSljr6M | Search |
+| N6 | Spec proof, RTX 5080: 84 SMs, 10,752 cores, 2,617 MHz, 360 W, 378 mm² | https://techpowerup.com/gpu-specs/details.c4217 | Search |
+| N7 | Spec proof, RTX 5090: 21,760 cores, 32 GB, 575 W | https://www.techpowerup.com/gpu-specs/geforce-rtx-5090.c4216 | Search |
+
+### Stock footage (closing analogy)
+
+| ID | Use | Link | Status |
+| --- | --- | --- | --- |
+| S1 | Red Ferrari driving through a city (video) | https://www.pexels.com/video/luxury-red-ferrari-driving-through-city-streets-30794587/ | Search |
+| S1 alt | Red sports car with no badge on a curvy road (7 s video). Avoids brand questions. | https://mixkit.co/free-stock-video/a-red-sports-car-traveling-along-a-curvy-asphalt-road-52427/ | Search |
+| S2 | Red Ferrari 458 still (fallback) | https://www.pexels.com/photo/red-ferrari-458-italia-on-road-19885042/ | Search |
+| S3 | Cargo truck being loaded (video) | https://www.pexels.com/video/loading-a-cargo-truck-2711294/ | Search |
+| S3 alt | Loading a cargo truck (video) | https://mixkit.co/free-stock-video/loading-a-cargo-truck-22983/ | Search |
+| S4 | Truck with an open rear door (still, fallback) | https://www.pexels.com/photo/truck-with-open-back-door-19589425/ | Search |
+
+### Proof for the claims
+
+| ID | Use | Link | Status |
+| --- | --- | --- | --- |
+| R1 | GGUF table showing Q4_K_M = 42.52 GB. Already in the repo. | `hardware-ladder-ep3-rebuild/public/media/llama-size.jpg` | Opened |
+| R2 | The live page for that table | https://huggingface.co/bartowski/Llama-3.3-70B-Instruct-GGUF | Search |
+| R3 | M5 Ultra GPU estimates (~33 TFLOPS, ~1.62 GHz) | https://nanoreview.net/en/gpu/apple-m5-ultra-gpu-80-core | Search |
+
+### Type and icons
+
+| ID | Use | Link | Status |
+| --- | --- | --- | --- |
+| F1 | Inter (SIL OFL), replaces SF Pro | https://github.com/rsms/inter/releases/latest | Opened |
+| F2 | Geist and Geist Mono (SIL OFL), for spec text | https://github.com/vercel/geist-font/releases/latest | Opened |
+| — | Apple's SF font license (UI mock-ups only), for reference | https://developer.apple.com/fonts/ | Opened |
+| I1 | Lucide icons (ISC): `send`, `cpu`, `memory-stick`, `zap`, `truck`, `car` (check names in the repo) | https://github.com/lucide-icons/lucide | Opened |
+
+### Sound
+
+Your sfx-v2 library already covers every cue in the SFX list (whoosh, pop, tick, riser, signature). Everything below is extra.
+
+| ID | Use | Link | Status |
+| --- | --- | --- | --- |
+| X1 | 936 UI sounds (CC0) | https://github.com/romainsimon/uisfx | Opened |
+| X2 | Kenney's UI, interface and impact packs (CC0) | https://github.com/lavenderdotpet/CC0-Public-Domain-Sounds | Opened |
+| X3 | Optional music bed: "Minimal Tech" by PaulYudin (Pixabay license) | https://pixabay.com/music/corporate-minimal-tech-151898/ | Search |
+| X4 | Optional music bed: "Minimal Technology Ambient_Soft Dawn" by Coma-Media | https://pixabay.com/music/corporate-minimal-technology-ambient-soft-dawn-12784/ | Search |
+
+`SoundTrack` has no music bed by design. If you want music, add X3 or X4 to the render, or pick a sound in Instagram's editor at low volume.
+
+### 3D models (optional, for the v3 white-studio look)
+
+| ID | Use | Link | Status |
+| --- | --- | --- | --- |
+| M1 | Mac Studio, GLB listed (license and price not captured) | https://fab.com/listings/362170d8-f19e-4ffa-ae6c-1b47ddecb344 | Search |
+| M1 alt | Mac Studio, free, glTF, editorial use only | https://www.turbosquid.com/3d-models/mac-studio-3d-2331989 | Search |
+| M2 | RTX 5090, royalty-free, $25, Blender file (export to GLB). The 5080 and 5090 Founders Editions look nearly identical from outside. | https://superhivemarket.com/products/nvidia-rtx-5090---hq-model | Search |
+| M2 alt | RTX 5090, royalty-free, $39, OBJ/FBX | https://www.cgtrader.com/3d-models/electronics/computer/geforce-rtx-5090 | Search |
+| M3 | Microchip close-up model (CC BY; credit the author) | https://sketchfab.com/3d-models/microchip-prototype-7d00abe914664a17b4bf18c6e851e7eb | Search |
+
+### Usage terms to know
+
+- **Apple:** Newsroom images are made for press coverage. Apple's terms ask for written consent before commercial reuse of its site content ([apple.com/legal](https://www.apple.com/legal/trademark/copyright.html)).
+- **NVIDIA:** per NVIDIA's brand page, using its logo or branded assets needs written authorization ([brand usage](https://www.nvidia.com/en-us/about-nvidia/legal-info/logo-brand-usage/)).
+- **In practice:** show the products to comment on them, don't use either logo as a design element, and don't imply endorsement. If the channel is monetized, licensed 3D models are the cleanest route.
+- **Pexels:** its license bars implying that a brand endorses you. The badge-free S1 alt sidesteps that.
+
+## Render and upload
+
+- 25 fps is fine: Meta's API accepts 23–60 fps for Reels.
+- Render H.264 with AAC audio, for example `--codec=h264 --crf=18 --audio-bitrate=320k`.
+- Do one review pass with `--props='{"guides":true}'` before the final render.
