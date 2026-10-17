@@ -3,7 +3,7 @@
 **Length:** about 48 s at your ep3 pace (147 words at 182 wpm). A slower 170 wpm read runs about 52 s.
 **Matchup:** Mac Studio with M5 Ultra (80-core GPU) vs. RTX 5080, both current as of fall 2026.
 **Format:** 9:16 Reel or Short. Numbers are spelled out the way they should be read aloud.
-**Arc:** Apple's core count looks tiny next to NVIDIA's (hook), then the reveal that each Apple core is far bigger than it sounds, then why NVIDIA is still faster, then Apple's memory twist, then an analogy and a share CTA that loops back to frame 1.
+**Arc:** Apple's core count looks tiny next to NVIDIA's (hook), then the reveal that each Apple core is far bigger than it sounds, then the real difference (NVIDIA builds for maximum output, Apple for efficiency), then Apple's memory twist, then an analogy and a share CTA that loops back to frame 1.
 
 ---
 
@@ -20,31 +20,30 @@
 **Visual:** Zoom into one Apple core and burst it into a 16 × 8 grid of dots. Pull back as all 80 cores burst the same way, while a counter runs from 80 up to 10,240 beside NVIDIA's 10,752. The scale swings back to almost level.
 
 ### 3 · NEXT QUESTION · 0:16–0:19
-**VO:** Then why is NVIDIA way more powerful? Watts.
-**On screen:** `33 vs 56 TFLOPS` → **WATTS**
-**Visual:** Two power bars race and NVIDIA's lands about 1.7× higher. Hard cut to a lightning bolt on "Watts."
+**VO:** Then why is NVIDIA way more powerful? Opposite goals.
+**On screen:** `33 vs 56 TFLOPS` → `MAX OUTPUT` vs `MAX EFFICIENCY`
+**Visual:** Two power bars race and NVIDIA's lands about 1.7× higher. Then the frame splits into two labels, one over each device.
 
-### 4 · POWER · 0:19–0:27
-**VO:** It gulps three hundred and sixty of them to run about sixty percent faster. Apple's GPU sips a fraction, sharing one chip with the CPU.
-**On screen:** `360 W · 2.6 GHz` vs `~1.6 GHz` → `CPU + GPU: one chip`
-**Visual:** The card's fans spin up (the fan spin-up from the RGB-case animation) while a wattage needle swings to 360. Then x-ray the Apple chip: the CPU, GPU, Neural Engine and media engines sit on one chip, with the GPU highlighted.
+### 4 · DESIGN GOALS · 0:19–0:30
+**VO:** NVIDIA builds for maximum output: the whole chip is GPU, fed three hundred and sixty watts. Apple builds for efficiency: its GPU shares one chip with the CPU, sipping a fraction.
+**On screen:** `Whole chip = GPU · 360 W · 2.6 GHz` vs `Shared chip · ~1.6 GHz`
+**Visual:** The card's fans spin up (the fan spin-up from the RGB-case animation) while a wattage needle swings to 360, and the whole die lights up as GPU. Then x-ray the Apple chip: the CPU, GPU, Neural Engine and media engines share one chip, the GPU is just one highlighted block, and its wattage needle barely moves.
 
-### 5 · THE TWIST · 0:27–0:37
-**VO:** But Apple's cheat code is memory. NVIDIA's best gaming card has thirty-two gigs of its own. Apple's GPU shares one pool with the CPU, up to five hundred and twelve.
+### 5 · THE TWIST · 0:30–0:39
+**VO:** But Apple's cheat code is memory. NVIDIA's best gaming card has thirty-two gigs. This Mac Studio shares up to five hundred and twelve between CPU and GPU.
 **On screen:** `RTX 5090: 32 GB (its own)` vs `Mac Studio: 512 GB (shared)`
 **Visual:** Use your v3 x-ray look. The card frosts over to expose the memory chips around the GPU, and the Mac Studio exposes one big memory pool with arrows to both CPU and GPU.
 
-### 6 · PAYOFF · 0:37–0:42
+### 6 · PAYOFF · 0:39–0:43
 **VO:** So AI models too big for any gaming card... run on a Mac.
 **On screen:** `70B model · 42 GB` → ✗ card, ✓ Mac
 **Visual:** Green weight blocks pour into the card's memory, overflow and turn red. Then they pour into the Mac's pool with room to spare. This calls back to ep3's "Llama 70B needs 42 GB."
 
-### 7 · CLOSE · 0:42–0:48
-**VO:** NVIDIA's a Ferrari with a tiny trunk. Apple's a moving truck. Send this to someone who thinks more cores means faster.
+### 7 · CLOSE · 0:43–0:48
+**VO:** NVIDIA's a Ferrari. Apple's a moving truck. Send this to someone who thinks more cores means faster.
 **On screen:** `Speed` vs `Space` → `more cores ≠ faster`
-**Visual:** A Ferrari's tiny trunk pops open and fits one "32 GB" box. A moving truck rolls its door up on a wall of "512 GB." The last frame snaps back to the 80 vs 10,752 split from the hook, so the replay loops cleanly.
+**Visual:** A Ferrari roars past, then its tiny trunk pops open and fits one "32 GB" box. A moving truck rolls its door up on a wall of "512 GB." The last frame snaps back to the 80 vs 10,752 split from the hook, so the replay loops cleanly.
 
-If the read runs long, cut "with a tiny trunk."
 
 ---
 
@@ -77,14 +76,14 @@ Add this only if your read comes in under about 45 s. It goes after scene 4 (+4 
 | --- | --- |
 | M5 Ultra GPU (Mac Studio) | 80 cores × 128 ALUs = 10,240 · ~1.62 GHz · ~33 TFLOPS FP32 (third-party estimates; Apple doesn't publish these) |
 | RTX 5080 | 84 SMs × 128 = 10,752 CUDA cores · 2.62 GHz boost · ~56 TFLOPS · 360 W · 16 GB |
-| The gap | 56 / 33 ≈ 1.7×: about 1.6× from clock speed and 1.05× from the extra units |
+| The gap | 56 / 33 ≈ 1.7×: about 1.6× from clock speed (the payoff of NVIDIA's power budget) and 1.05× from the extra units |
 | RTX 5090 | 32 GB GDDR7, the most on any GeForce card (rumored 50 Super cards top out at 24 GB) |
 | Mac Studio (M5 Ultra, Aug 2026) | Up to 512 GB unified memory, ~1.2 TB/s |
 | Llama 70B at 4-bit | ~42 GB |
 
 ## Where this departs from the source report
 
-- **Bandwidth isn't NVIDIA's edge in this matchup.** The M5 Ultra reaches about 1.2 TB/s, against about 960 GB/s on the RTX 5080 and 1.79 TB/s on the 5090. The report's "2–3× bandwidth" is out of date, so the script blames watts and clock speed instead.
+- **Bandwidth isn't NVIDIA's edge in this matchup.** The M5 Ultra reaches about 1.2 TB/s, against about 960 GB/s on the RTX 5080 and 1.79 TB/s on the 5090. The report's "2–3× bandwidth" is out of date, so the script puts the gap down to design goals (power budget and clock speed) instead.
 - **AI and ray-tracing hardware isn't NVIDIA-only anymore.** Apple GPUs have had hardware ray tracing since M3, and M5 puts a Neural Accelerator in every GPU core. NVIDIA's versions are more mature, but "Apple has none" would get corrected in the comments.
 - **TBDR vs IMR is left out.** NVIDIA has used tile-based rasterization since Maxwell (2014), so the clean TBDR-vs-IMR split is oversimplified. It's also too deep for 45 s.
 
@@ -98,16 +97,16 @@ The times are estimates at the ep3 pace. Re-time them from `words.json` after re
    "text": "Apple's M5 Ultra Mac Studio has eighty GPU cores. NVIDIA's RTX fifty-eighty has ten thousand, seven hundred and fifty-two. Blowout, right?"},
   {"id": 2, "start": 6.92, "end": 16.48, "treat": "ANIM", "beat": "body", "exit": "cut",
    "text": "Nope. Apple's cores are bigger than you think. Each one packs a hundred and twenty-eight math units. NVIDIA counts every unit as a core. Multiply it out: nearly identical."},
-  {"id": 3, "start": 16.48, "end": 19.11, "treat": "ANIM", "beat": "loop", "exit": "cut",
-   "text": "Then why is NVIDIA way more powerful? Watts."},
-  {"id": 4, "start": 19.11, "end": 27.35, "treat": "ANIM", "beat": "body", "exit": "cut",
-   "text": "It gulps three hundred and sixty of them to run about sixty percent faster. Apple's GPU sips a fraction, sharing one chip with the CPU."},
-  {"id": 5, "start": 27.35, "end": 37.24, "treat": "ANIM", "beat": "payoff", "exit": "cut",
-   "text": "But Apple's cheat code is memory. NVIDIA's best gaming card has thirty-two gigs of its own. Apple's GPU shares one pool with the CPU, up to five hundred and twelve."},
-  {"id": 6, "start": 37.24, "end": 41.52, "treat": "ANIM", "beat": "payoff", "exit": "cut",
+  {"id": 3, "start": 16.48, "end": 19.44, "treat": "ANIM", "beat": "loop", "exit": "cut",
+   "text": "Then why is NVIDIA way more powerful? Opposite goals."},
+  {"id": 4, "start": 19.44, "end": 29.66, "treat": "ANIM", "beat": "body", "exit": "cut",
+   "text": "NVIDIA builds for maximum output: the whole chip is GPU, fed three hundred and sixty watts. Apple builds for efficiency: its GPU shares one chip with the CPU, sipping a fraction."},
+  {"id": 5, "start": 29.66, "end": 38.55, "treat": "ANIM", "beat": "payoff", "exit": "cut",
+   "text": "But Apple's cheat code is memory. NVIDIA's best gaming card has thirty-two gigs. This Mac Studio shares up to five hundred and twelve between CPU and GPU."},
+  {"id": 6, "start": 38.55, "end": 42.84, "treat": "ANIM", "beat": "payoff", "exit": "cut",
    "text": "So AI models too big for any gaming card... run on a Mac."},
-  {"id": 7, "start": 41.52, "end": 48.44, "treat": "ANIM", "beat": "close", "exit": "cut",
-   "text": "NVIDIA's a Ferrari with a tiny trunk. Apple's a moving truck. Send this to someone who thinks more cores means faster."}
+  {"id": 7, "start": 42.84, "end": 48.44, "treat": "ANIM", "beat": "close", "exit": "cut",
+   "text": "NVIDIA's a Ferrari. Apple's a moving truck. Send this to someone who thinks more cores means faster."}
 ]
 ```
 
