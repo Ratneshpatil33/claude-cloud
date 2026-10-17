@@ -1,0 +1,752 @@
+[
+ {
+  "word": "What's",
+  "start": 0.02,
+  "end": 0.2
+ },
+ {
+  "word": "the",
+  "start": 0.2,
+  "end": 0.38
+ },
+ {
+  "word": "difference",
+  "start": 0.38,
+  "end": 0.91
+ },
+ {
+  "word": "between",
+  "start": 0.91,
+  "end": 1.27
+ },
+ {
+  "word": "Apple's",
+  "start": 1.27,
+  "end": 1.62
+ },
+ {
+  "word": "M",
+  "start": 1.62,
+  "end": 1.8
+ },
+ {
+  "word": "five",
+  "start": 1.8,
+  "end": 1.98
+ },
+ {
+  "word": "Ultra",
+  "start": 1.98,
+  "end": 2.34
+ },
+ {
+  "word": "Mac",
+  "start": 2.34,
+  "end": 2.51
+ },
+ {
+  "word": "Studio,",
+  "start": 2.51,
+  "end": 2.87
+ },
+ {
+  "word": "with",
+  "start": 3,
+  "end": 3.2
+ },
+ {
+  "word": "eighty",
+  "start": 3.2,
+  "end": 3.59
+ },
+ {
+  "word": "GPU",
+  "start": 3.59,
+  "end": 4.18
+ },
+ {
+  "word": "cores,",
+  "start": 4.18,
+  "end": 4.58
+ },
+ {
+  "word": "and",
+  "start": 4.58,
+  "end": 4.78
+ },
+ {
+  "word": "NVIDIA's",
+  "start": 4.78,
+  "end": 5.57
+ },
+ {
+  "word": "RTX",
+  "start": 5.57,
+  "end": 6.16
+ },
+ {
+  "word": "fifty-eighty,",
+  "start": 6.16,
+  "end": 6.95
+ },
+ {
+  "word": "with",
+  "start": 7.01,
+  "end": 7.17
+ },
+ {
+  "word": "over",
+  "start": 7.17,
+  "end": 7.49
+ },
+ {
+  "word": "ten",
+  "start": 7.49,
+  "end": 7.65
+ },
+ {
+  "word": "thousand?",
+  "start": 7.65,
+  "end": 7.97
+ },
+ {
+  "word": "How",
+  "start": 8.08,
+  "end": 8.27
+ },
+ {
+  "word": "is",
+  "start": 8.27,
+  "end": 8.47
+ },
+ {
+  "word": "Apple",
+  "start": 8.47,
+  "end": 8.66
+ },
+ {
+  "word": "even",
+  "start": 8.66,
+  "end": 9.05
+ },
+ {
+  "word": "competing?",
+  "start": 9.05,
+  "end": 9.63
+ },
+ {
+  "word": "Because",
+  "start": 10,
+  "end": 10.36
+ },
+ {
+  "word": "Apple's",
+  "start": 10.36,
+  "end": 10.72
+ },
+ {
+  "word": "cores",
+  "start": 10.72,
+  "end": 11.08
+ },
+ {
+  "word": "are",
+  "start": 11.08,
+  "end": 11.25
+ },
+ {
+  "word": "bigger",
+  "start": 11.25,
+  "end": 11.61
+ },
+ {
+  "word": "than",
+  "start": 11.61,
+  "end": 11.79
+ },
+ {
+  "word": "you",
+  "start": 11.79,
+  "end": 11.97
+ },
+ {
+  "word": "think.",
+  "start": 11.97,
+  "end": 12.15
+ },
+ {
+  "word": "Each",
+  "start": 12.38,
+  "end": 12.57
+ },
+ {
+  "word": "one",
+  "start": 12.57,
+  "end": 12.77
+ },
+ {
+  "word": "packs",
+  "start": 12.77,
+  "end": 12.96
+ },
+ {
+  "word": "a",
+  "start": 12.96,
+  "end": 13.16
+ },
+ {
+  "word": "hundred",
+  "start": 13.16,
+  "end": 13.55
+ },
+ {
+  "word": "and",
+  "start": 13.55,
+  "end": 13.74
+ },
+ {
+  "word": "twenty-eight",
+  "start": 13.74,
+  "end": 14.33
+ },
+ {
+  "word": "math",
+  "start": 14.33,
+  "end": 14.52
+ },
+ {
+  "word": "units,",
+  "start": 14.52,
+  "end": 14.91
+ },
+ {
+  "word": "but",
+  "start": 14.98,
+  "end": 15.17
+ },
+ {
+  "word": "NVIDIA",
+  "start": 15.17,
+  "end": 15.92
+ },
+ {
+  "word": "counts",
+  "start": 15.92,
+  "end": 16.11
+ },
+ {
+  "word": "every",
+  "start": 16.11,
+  "end": 16.68
+ },
+ {
+  "word": "unit",
+  "start": 16.68,
+  "end": 17.05
+ },
+ {
+  "word": "as",
+  "start": 17.05,
+  "end": 17.24
+ },
+ {
+  "word": "a",
+  "start": 17.24,
+  "end": 17.43
+ },
+ {
+  "word": "core.",
+  "start": 17.43,
+  "end": 17.62
+ },
+ {
+  "word": "So",
+  "start": 17.9,
+  "end": 18.09
+ },
+ {
+  "word": "the",
+  "start": 18.09,
+  "end": 18.29
+ },
+ {
+  "word": "totals",
+  "start": 18.29,
+  "end": 18.67
+ },
+ {
+  "word": "are",
+  "start": 18.67,
+  "end": 18.86
+ },
+ {
+  "word": "nearly",
+  "start": 18.86,
+  "end": 19.25
+ },
+ {
+  "word": "identical.",
+  "start": 19.25,
+  "end": 20.02
+ },
+ {
+  "word": "So",
+  "start": 20.14,
+  "end": 20.33
+ },
+ {
+  "word": "why",
+  "start": 20.33,
+  "end": 20.52
+ },
+ {
+  "word": "is",
+  "start": 20.52,
+  "end": 20.71
+ },
+ {
+  "word": "NVIDIA",
+  "start": 20.71,
+  "end": 21.48
+ },
+ {
+  "word": "still",
+  "start": 21.48,
+  "end": 21.67
+ },
+ {
+  "word": "more",
+  "start": 21.67,
+  "end": 21.86
+ },
+ {
+  "word": "powerful?",
+  "start": 21.86,
+  "end": 22.43
+ },
+ {
+  "word": "They",
+  "start": 22.52,
+  "end": 22.75
+ },
+ {
+  "word": "are",
+  "start": 22.75,
+  "end": 22.99
+ },
+ {
+  "word": "built",
+  "start": 22.99,
+  "end": 23.22
+ },
+ {
+  "word": "for",
+  "start": 23.22,
+  "end": 23.46
+ },
+ {
+  "word": "opposite",
+  "start": 23.46,
+  "end": 24.16
+ },
+ {
+  "word": "goals.",
+  "start": 24.16,
+  "end": 24.4
+ },
+ {
+  "word": "NVIDIA",
+  "start": 24.77,
+  "end": 25.53
+ },
+ {
+  "word": "builds",
+  "start": 25.53,
+  "end": 25.72
+ },
+ {
+  "word": "for",
+  "start": 25.72,
+  "end": 25.91
+ },
+ {
+  "word": "maximum",
+  "start": 25.91,
+  "end": 26.48
+ },
+ {
+  "word": "output,",
+  "start": 26.48,
+  "end": 26.86
+ },
+ {
+  "word": "with",
+  "start": 26.95,
+  "end": 27.18
+ },
+ {
+  "word": "a",
+  "start": 27.18,
+  "end": 27.42
+ },
+ {
+  "word": "whole",
+  "start": 27.42,
+  "end": 27.65
+ },
+ {
+  "word": "chip",
+  "start": 27.65,
+  "end": 27.89
+ },
+ {
+  "word": "just",
+  "start": 27.89,
+  "end": 28.12
+ },
+ {
+  "word": "for",
+  "start": 28.12,
+  "end": 28.35
+ },
+ {
+  "word": "graphics.",
+  "start": 28.35,
+  "end": 28.82
+ },
+ {
+  "word": "Apple",
+  "start": 28.96,
+  "end": 29.18
+ },
+ {
+  "word": "builds",
+  "start": 29.18,
+  "end": 29.39
+ },
+ {
+  "word": "for",
+  "start": 29.39,
+  "end": 29.61
+ },
+ {
+  "word": "efficiency,",
+  "start": 29.61,
+  "end": 30.48
+ },
+ {
+  "word": "sharing",
+  "start": 30.62,
+  "end": 31.01
+ },
+ {
+  "word": "one",
+  "start": 31.01,
+  "end": 31.21
+ },
+ {
+  "word": "chip",
+  "start": 31.21,
+  "end": 31.4
+ },
+ {
+  "word": "with",
+  "start": 31.4,
+  "end": 31.6
+ },
+ {
+  "word": "the",
+  "start": 31.6,
+  "end": 31.79
+ },
+ {
+  "word": "CPU.",
+  "start": 31.79,
+  "end": 32.38
+ },
+ {
+  "word": "But",
+  "start": 32.74,
+  "end": 32.94
+ },
+ {
+  "word": "Apple's",
+  "start": 32.94,
+  "end": 33.35
+ },
+ {
+  "word": "secret",
+  "start": 33.35,
+  "end": 33.75
+ },
+ {
+  "word": "weapon",
+  "start": 33.75,
+  "end": 34.15
+ },
+ {
+  "word": "is",
+  "start": 34.15,
+  "end": 34.35
+ },
+ {
+  "word": "memory.",
+  "start": 34.35,
+  "end": 34.96
+ },
+ {
+  "word": "NVIDIA's",
+  "start": 35.02,
+  "end": 35.76
+ },
+ {
+  "word": "best",
+  "start": 35.76,
+  "end": 35.94
+ },
+ {
+  "word": "gaming",
+  "start": 35.94,
+  "end": 36.31
+ },
+ {
+  "word": "card",
+  "start": 36.31,
+  "end": 36.5
+ },
+ {
+  "word": "has",
+  "start": 36.5,
+  "end": 36.68
+ },
+ {
+  "word": "thirty-two",
+  "start": 36.68,
+  "end": 37.23
+ },
+ {
+  "word": "gigabytes.",
+  "start": 37.23,
+  "end": 37.97
+ },
+ {
+  "word": "A",
+  "start": 38.1,
+  "end": 38.3
+ },
+ {
+  "word": "Mac",
+  "start": 38.3,
+  "end": 38.49
+ },
+ {
+  "word": "Studio",
+  "start": 38.49,
+  "end": 38.88
+ },
+ {
+  "word": "can",
+  "start": 38.88,
+  "end": 39.08
+ },
+ {
+  "word": "share",
+  "start": 39.08,
+  "end": 39.27
+ },
+ {
+  "word": "up",
+  "start": 39.27,
+  "end": 39.47
+ },
+ {
+  "word": "to",
+  "start": 39.47,
+  "end": 39.66
+ },
+ {
+  "word": "five",
+  "start": 39.66,
+  "end": 39.86
+ },
+ {
+  "word": "hundred",
+  "start": 39.86,
+  "end": 40.25
+ },
+ {
+  "word": "and",
+  "start": 40.25,
+  "end": 40.44
+ },
+ {
+  "word": "twelve.",
+  "start": 40.44,
+  "end": 40.64
+ },
+ {
+  "word": "So",
+  "start": 40.97,
+  "end": 41.17
+ },
+ {
+  "word": "AI",
+  "start": 41.17,
+  "end": 41.58
+ },
+ {
+  "word": "models",
+  "start": 41.58,
+  "end": 41.99
+ },
+ {
+  "word": "too",
+  "start": 41.99,
+  "end": 42.19
+ },
+ {
+  "word": "big",
+  "start": 42.19,
+  "end": 42.4
+ },
+ {
+  "word": "for",
+  "start": 42.4,
+  "end": 42.6
+ },
+ {
+  "word": "any",
+  "start": 42.6,
+  "end": 43.01
+ },
+ {
+  "word": "gaming",
+  "start": 43.01,
+  "end": 43.42
+ },
+ {
+  "word": "card",
+  "start": 43.42,
+  "end": 43.62
+ },
+ {
+  "word": "run",
+  "start": 43.62,
+  "end": 43.83
+ },
+ {
+  "word": "on",
+  "start": 43.83,
+  "end": 44.03
+ },
+ {
+  "word": "a",
+  "start": 44.03,
+  "end": 44.24
+ },
+ {
+  "word": "Mac.",
+  "start": 44.24,
+  "end": 44.44
+ },
+ {
+  "word": "NVIDIA",
+  "start": 44.85,
+  "end": 45.41
+ },
+ {
+  "word": "is",
+  "start": 45.41,
+  "end": 45.55
+ },
+ {
+  "word": "a",
+  "start": 45.55,
+  "end": 45.69
+ },
+ {
+  "word": "Ferrari,",
+  "start": 45.69,
+  "end": 46.11
+ },
+ {
+  "word": "and",
+  "start": 46.72,
+  "end": 46.93
+ },
+ {
+  "word": "Apple",
+  "start": 46.93,
+  "end": 47.14
+ },
+ {
+  "word": "is",
+  "start": 47.14,
+  "end": 47.35
+ },
+ {
+  "word": "a",
+  "start": 47.35,
+  "end": 47.56
+ },
+ {
+  "word": "moving",
+  "start": 47.56,
+  "end": 47.98
+ },
+ {
+  "word": "truck.",
+  "start": 47.98,
+  "end": 48.19
+ },
+ {
+  "word": "Send",
+  "start": 48.34,
+  "end": 48.57
+ },
+ {
+  "word": "this",
+  "start": 48.57,
+  "end": 48.8
+ },
+ {
+  "word": "to",
+  "start": 48.8,
+  "end": 49.03
+ },
+ {
+  "word": "someone",
+  "start": 49.03,
+  "end": 49.5
+ },
+ {
+  "word": "who",
+  "start": 49.5,
+  "end": 49.73
+ },
+ {
+  "word": "thinks",
+  "start": 49.73,
+  "end": 49.96
+ },
+ {
+  "word": "more",
+  "start": 49.96,
+  "end": 50.19
+ },
+ {
+  "word": "cores",
+  "start": 50.19,
+  "end": 50.66
+ },
+ {
+  "word": "means",
+  "start": 50.66,
+  "end": 50.89
+ },
+ {
+  "word": "faster.",
+  "start": 50.89,
+  "end": 51.35
+ }
+]

@@ -1,0 +1,9 @@
+{
+ "whoosh": 0.28,
+ "pop": 0.01,
+ "tick": 0.002,
+ "riser": 1.5,
+ "signature": 0.02,
+ "thump": 0.01,
+ "error": 0.01
+}

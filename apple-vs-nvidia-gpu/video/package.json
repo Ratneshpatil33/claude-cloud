@@ -1,0 +1,27 @@
+{
+  "name": "apple-vs-nvidia-gpu-reel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion reel: Apple M5 Ultra Mac Studio vs NVIDIA RTX 5080 GPU cores",
+  "scripts": {
+    "dev": "remotion studio",
+    "sfx": "node scripts/make-sfx.mjs",
+    "words": "node scripts/align-words.mjs",
+    "render": "remotion render Reel out/apple-vs-nvidia-gpu.mp4 --codec=h264 --crf=18 --audio-bitrate=320k",
+    "still": "remotion still Reel out/still.png --frame=0",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/geist-mono": "5.3.0",
+    "@fontsource/inter": "5.3.0",
+    "@remotion/cli": "4.0.536",
+    "@remotion/fonts": "4.0.536",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.536"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "typescript": "5.9.3"
+  }
+}

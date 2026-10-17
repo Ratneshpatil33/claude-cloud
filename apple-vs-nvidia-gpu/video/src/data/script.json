@@ -1,0 +1,32 @@
+{
+ "scenes": [
+  {
+   "id": 1,
+   "text": "What's the difference between Apple's M five Ultra Mac Studio, with eighty GPU cores, and NVIDIA's RTX fifty-eighty, with over ten thousand? How is Apple even competing?"
+  },
+  {
+   "id": 2,
+   "text": "Because Apple's cores are bigger than you think. Each one packs a hundred and twenty-eight math units, but NVIDIA counts every unit as a core. So the totals are nearly identical."
+  },
+  {
+   "id": 3,
+   "text": "So why is NVIDIA still more powerful? They are built for opposite goals."
+  },
+  {
+   "id": 4,
+   "text": "NVIDIA builds for maximum output, with a whole chip just for graphics. Apple builds for efficiency, sharing one chip with the CPU."
+  },
+  {
+   "id": 5,
+   "text": "But Apple's secret weapon is memory. NVIDIA's best gaming card has thirty-two gigabytes. A Mac Studio can share up to five hundred and twelve."
+  },
+  {
+   "id": 6,
+   "text": "So AI models too big for any gaming card run on a Mac."
+  },
+  {
+   "id": 7,
+   "text": "NVIDIA is a Ferrari, and Apple is a moving truck. Send this to someone who thinks more cores means faster."
+  }
+ ]
+}
